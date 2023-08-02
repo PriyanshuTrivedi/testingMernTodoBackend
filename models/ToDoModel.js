@@ -4,6 +4,10 @@ const todoSchema= new mongoose.Schema({
     text:{
         type:String,
         require:true
+    },
+    time:{
+        type:String,
+        require:true
     }
 })
 
